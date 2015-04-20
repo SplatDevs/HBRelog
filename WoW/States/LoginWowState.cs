@@ -211,14 +211,6 @@ namespace HighVoltz.HBRelog.WoW.States
             }
         }
 
-        bool ShouldPause
-        {
-            get
-            {
-                if (_wowManager.Profile.ShoudPause) return true;
-                return false;
-            }
-        }
         private const string INCORRECT_PASSWORD_TEXT = "Ошибка Battle.net №104";
         bool IncorrectPassword
         {
