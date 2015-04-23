@@ -241,7 +241,6 @@ namespace HighVoltz.HBRelog.WoW.States
 						_wowManager.Profile.Status = string.Format("Realm is offline");
 						_wowManager.Profile.Log("Realm is offline");
 						_wowManager.GameProcess.Kill();
-                        _wowManager.Profile.Pause(30);
 						return true;
 					}
 					clickPos = _wowManager.ConvertWidgetCenterToWin32Coord(wantedButton);
